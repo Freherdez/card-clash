@@ -135,3 +135,36 @@ body {
 .skills__speed--card2 {
   border-right: 1px solid #be3d69;
 }
+
+@media (max-width: 768px) {
+  body {
+    background:linear-gradient( #a39d99, #6b5b59, #3d2127 ) no-repeat fixed;
+  }
+  .container {
+    width: 90%;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards--card2 {
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 378px) {
+  .container {
+    position: relative;
+    left: 0;
+  }
+
+  .barbaro1 {
+    width: 500px;
+    height: 420px;
+    left: -70px;
+  }
+
+}
+
